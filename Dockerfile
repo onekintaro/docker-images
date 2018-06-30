@@ -3,7 +3,7 @@
 # Environment: Source Engine
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
-FROM microsoft/windowsservercore
+FROM microsoft/dotnet:2.1-runtime-deps-stretch-slim
 
 MAINTAINER  Onekintaro, <info@swisscrafting.ch>
 

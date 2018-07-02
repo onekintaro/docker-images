@@ -5,7 +5,7 @@
 # ----------------------------------
 FROM        debian:stretch
 
-MAINTAINER  Onekintaro, <info@swisscrafting.ch>
+MAINTAINER  Onekintaro,<info@swisscrafting.ch>
 ENV         DEBIAN_FRONTEND noninteractive
 # Install Dependencies
 RUN         dpkg --add-architecture i386 \
